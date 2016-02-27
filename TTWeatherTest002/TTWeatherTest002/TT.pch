@@ -1,0 +1,52 @@
+//
+//  TT.pch
+//  TTWeatherTest002
+//
+//  Created by 赵鹏 on 16/2/26.
+//  Copyright © 2016年 Mars_Dan. All rights reserved.
+//
+
+#ifndef TT_pch
+#define TT_pch
+//屏幕大小
+#define VIEW_SIZE self.view.frame.size
+
+
+
+/*
+ 请求实例网址：https://www.juhe.cn/docs/api/id/73
+ 
+ 接口地址：http://op.juhe.cn/onebox/weather/query
+ 支持格式：json/xml
+ 请求方式：http get/post
+ 请求示例：http://op.juhe.cn/onebox/weather/query?cityname=%E6%B8%A9%E5%B7%9E&key=您申请的KEY
+ */
+
+/*
+ 天气KEY
+ */
+#define APPKEY @"d4cf79d3a1e039821e9f7bcbf6f55f77"
+/*
+接口地址
+ */
+#define PORT @"http://op.juhe.cn/onebox/weather/query="
+
+/*
+ Bmob 数据接口
+ 
+ */
+
+/*
+ Application ID:
+ */
+#define APPLICATIONID @"48f9b64656cd2a391275036480607c00"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TT_pch */
+
+/*
+ 请求实例：
+ 
+ */
